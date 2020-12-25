@@ -1,0 +1,33 @@
+
+
+body {
+    background-color: white;
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 600px;
+}
+a{
+    text-decoration: none;
+    color: #142516;
+}
+a:hover{
+    color:grey;
+}
+
+
+
+.bg-secondary-yellow{
+    background-color: #fa8100 !important;
+    color:white !important;
+    margin-bottom: 0;
+    border-radius: 0%;
+}
+.bg-ash-green{
+    background-color:#152818 ;
+    color:white;
+}
+.colorsPalette{
+    height:25px;
+    width: 100%;
+}
