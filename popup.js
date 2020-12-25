@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         function sendColors(res) {
             let parentElement = document.getElementById("colorPalette");
+            while(parentElement.firstChild){
+                parentElement.removeChild(parentElement.firstChild);
+            }
             res.colors.forEach(element => {
                 let newElement = document.createElement('div');
                 newElement.setAttribute('class', 'colorsPalette');
